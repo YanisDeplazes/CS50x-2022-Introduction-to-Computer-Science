@@ -1,0 +1,5 @@
+# [Problem Set 1: Mario (More)](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)
+
+This folder contains only the submitted work. More details about this assignment can be found [here](https://cs50.harvard.edu/x/2022/psets/1/mario/more/).
+
+Please see [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/) for guidelines.

@@ -1,0 +1,11 @@
+sort1 uses: bubblesort
+
+How do you know?: It was faster on the sorted list but had around the same time as selection sort on BIG O Notation
+
+sort2 uses: MergeSort
+
+How do you know?: It has the same time for all the lists.(n log n) Same Big O and Same Omega but it was faster than selection sort
+
+sort3 uses: selection sort
+
+How do you know?: It has the same time for all the lists.(n^2) Same Big O and Same Omega

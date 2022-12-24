@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link href="styles.css" rel="stylesheet">
+    <title>Yanis Deplazes | Webpage</title>
+</head>
+
+<body>
+    <header>
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" onClick="navbarToggle()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <div class="navigation" style="display: none;">
+        <ul class=" menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <main>
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <h1>About Me</h1>
+                <p>
+                    As a (full-stack) web developer, I have a strong passion for developing useful and effective
+                    web
+                    content (applications, websites). My vision is to combine business and IT with full-stack
+                    development and data science. Developing and managing full-stack web applications, web
+                    content and
+                    websites is one of my main topics. To develop a solution without miscommunication, it is
+                    important
+                    to map business requirements and then translate them into performance-related insights.
+                    Thanks to my
+                    professional experience, I can approach a project with different perspectives.
+                </p>
+                <p>
+                    Hard skills: JavaScript, HTML (HTML5), CSS (CSS3), WordPress, PHP, Python (Python 3), SQL,
+                    node.js,
+                    Angular, React
+                </p>
+
+            </div>
+        </section>
+    </main>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Hi, I'm Yanis Deplazes
+                        </h6>
+                        <p>
+                            Thans for Visiting.
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Hard Skills
+                        </h6>
+                        <p>
+                            <span class="text-reset">Web Development</span>
+                        </p>
+                        <p>
+                            <span class="text-reset">Digital Marketing</span>
+                        </p>
+                        <p>
+                            <span class="text-reset">Data Science</span>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Social Media
+                        </h6>
+                        <p>
+                            <a href="https://www.linkedin.com/in/yanis-deplazes/" class="text-reset">Linkedin</a>
+                        </p>
+                        <p>
+                            <a href="https://www.instagram.com/yanisdeplazes/" class="text-reset">Instagram</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p>Zurich, CH 8006, Switzerland</p>
+                        <p>contact@yanis.tech</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <span class="text-reset fw-bold">Yanis Deplazes</span>
+        </div>
+    </footer>
+    <script>
+        function navbarToggle() {
+            var header = document.querySelector(".navigation");
+            if (header.style.display == 'none') {
+                header.style.display = 'block'
+            } else {
+                header.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+
+</html>
